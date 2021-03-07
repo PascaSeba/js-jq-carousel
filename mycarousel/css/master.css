@@ -32,9 +32,15 @@ img {
     display: inline-block;
     color: white;
 }
+.slider i:hover {
+    font-size: 2em;
+}
 .slide_prev i, .slide_next i {
-    font-size: 3em;
+    font-size: 3.7em;
     color: white;
+}
+.slide_prev i:hover, .slide_next i:hover {
+    font-size: 4.7em;
 }
 .slide_prev, .slide_next {
     position: absolute;
@@ -47,6 +53,9 @@ img {
 }
 .slide_next {
     left: 90%;
+}
+.slide_prev:hover, .slide_next:hover {
+bottom: 48%;
 }
 .slider {
     background-color: black;
@@ -64,6 +73,7 @@ img {
 }
 .slider i {
     cursor: pointer;
+    font-size: 1.3em;
 }
 
 

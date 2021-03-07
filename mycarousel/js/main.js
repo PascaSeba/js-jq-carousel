@@ -10,6 +10,22 @@ $(document).ready(function () {
     })
 });
     
+
+//BONUS: cambio immagine con tasti direzionali (tastiera)
+$(document).keydown(function(e) {
+    if (e.keyCode === 37) {
+       // Previous
+       $(".slide_prev").click();
+       return false;
+    }
+    if (e.keyCode === 39) {
+       // Next
+       $(".slide_next").click();
+       return false;
+    }
+});
+// FINE BONUS
+
     
 //Ora creo le mie funzioni, al click delle freccie dovrà spuntare
 //la precedente/prossima immagine.
