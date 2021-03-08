@@ -27,6 +27,7 @@ img {
     width: 100%;
     height: 100%;
     display: none;
+    border-radius: 30px;
 }
 .active {
     display: inline-block;
